@@ -1,0 +1,94 @@
+/* Write some CSS below : */
+
+/* 1. Global design first : Body, Headers, Colors, Fonts, Font size, Font weight */
+body {
+    color:#4D5057;
+    background: #A75D5D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #FFC3A1, #D3756B, #A75D5D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFC3A1, #D3756B, #A75D5D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+  }
+
+h1 {
+    color:#A75D5D;
+    font-size: 36px;
+    font-family: 'DM Serif Display', serif;
+}
+
+h2 {
+    color:#A75D5D;
+    font-size: 30px;
+    font-family:'DM Serif Display', serif;
+}
+
+h3 {
+    color:#4D5057;
+    font-size: 25px;
+    font-family: 'DM Serif Display', serif;
+}
+
+/* 2. Appearance of html elements : Images, Links (buttons), Divs */
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+  .list-inline {
+    list-style: none;
+    padding-left: 0;
+} 
+
+.list-inline li {
+   display: inline;
+} 
+
+.list-inline i {
+    font-size: 50px;
+    color: #C8B6A6 ;
+    letter-spacing: 40px;
+    text-align: center;
+ } 
+
+.container {
+    width: 700px;
+    margin: 10px auto;
+} 
+
+
+#profile {
+    width: 250px;
+    height: auto;
+} 
+
+.card-beige {
+    background-color: #FFFFFF;
+    text-align: center;
+    border-radius: 5px;
+    padding: 40px;
+    margin: 20px 0;
+    box-shadow: 0 10px 20px #F0997D;
+} 
+
+.competencelist-inline li {
+    display: inline;
+    text-align: center;
+    margin: auto 5px;
+} 
+
+#btn-pink {
+    text-decoration: none;
+    background-color: #FFC3A1;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 30px;
+    opacity: 0.8;
+}
+
+#btn-pink:hover{
+    opacity: 1;
+}
+
